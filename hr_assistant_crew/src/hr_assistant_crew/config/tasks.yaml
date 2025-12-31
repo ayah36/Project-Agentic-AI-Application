@@ -1,0 +1,15 @@
+search_task:
+  description: >
+    Search the company files for an accurate answer to the following question: {question}.
+    Make sure to review sections related to leaves and salaries if necessary.
+  expected_output: >
+    A detailed summary of the policy found, including article numbers and specific durations.
+  agent: hr_researcher
+
+report_task:
+  description: >
+    Create a final, well-structured report based on the information gathered by the researcher.
+    The report should be professional and easy for employees to understand.
+  expected_output: >
+    A final report in Markdown format with sections for Summary, Details, and Recommendations.
+  agent: hr_manager
