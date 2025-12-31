@@ -4,7 +4,7 @@ import requests
 mcp = FastMCP("HR_System")
 
 # الرابط اللي أعطاك إياه ngrok
-COLAB_URL = "https://jenifer-unrelaxing-unbuoyantly.ngrok-free.dev/query"
+COLAB_URL = "https://exclusionary-axile-glayds.ngrok-free.dev"
 
 @mcp.tool()
 def search_hr_rag(question: str) -> str:
